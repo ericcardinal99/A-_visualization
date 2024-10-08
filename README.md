@@ -1,4 +1,7 @@
 # A* Algorithm Visualization
+
+https://github.com/user-attachments/assets/8b7c43df-45a7-46f4-99ec-9f365b4f88cc
+
 ## Implementation
 The first step of the implementation of A* Algorithm was to convert the input.txt and coords.txt files into useful data structures. From the input.txt file, the total number of vertices, starting vertex and goal vertex are saved. Then, the edges are saved in a dictionary. The format of this dictionary is as follows:
 	
@@ -67,26 +70,12 @@ Create_video = False
 
 ## Algorithm Results
 
-Algorithm
-Total Cost
-Total Number of Iterations
-Dijkstra’s
-30.14
-98
-A*
-30.14
-62
-Weighted A*, ε = 2
-30.63
-30
-Weighted A*, ε = 3
-31.80
-26
-Weighted A*, ε = 4
-31.80
-27
-Weighted A*, ε = 5
-31.80
-26
+|Algorithm |Total Cost |Total Number of Iterations|
+| --- | --- | --- |
+|Dijkstra’s|30.14|98|
+|A*|30.14|62|
+|Weighted A*, ε = 2|30.63|30|
+|Weighted A*, ε = 3|31.80|26|
+|Weighted A*, ε = 4|31.80|27|Weighted A*, ε = 5|31.80|26|
 
 
